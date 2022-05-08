@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GreenFlag</string>
+    <string name="btn_create">Create an account</string>
+    <string name="tv_info">GreenFlag Customer can create an account to access</string>
+    <string name="tv_info2">Care health updates</string>
+    <string name="tv_info3">Request a rescue online</string>
+    <string name="tv_info4">Policy information</string>
+</resources>
