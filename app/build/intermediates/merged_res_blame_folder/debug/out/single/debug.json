@@ -4,28 +4,24 @@
         "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/drawable-xhdpi/cross.png"
     },
     {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/font_font2.ttf.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/font/font2.ttf"
     },
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable-xhdpi_logo_green_flag.png.flat",
         "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/drawable-xhdpi/logo_green_flag.png"
     },
     {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/layout_navigation_header.xml.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/layout/navigation_header.xml"
     },
     {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/font_museosan_300.xml.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/font/museosan_300.xml"
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable_white_background.xml.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/drawable/white_background.xml"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable-xhdpi_tick.png.flat",
@@ -34,6 +30,34 @@
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/font_font1.ttf.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/font/font1.ttf"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/layout_activity_login_page.xml.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/layout/activity_login_page.xml"
+    },
+    {
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -64,8 +88,8 @@
         "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/drawable_back_arrow.png.flat",
+        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/drawable/back_arrow.png"
     },
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -78,9 +102,5 @@
     {
         "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/mirnal/AndroidStudioProjects/Greenflag/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     }
 ]

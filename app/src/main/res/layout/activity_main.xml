@@ -48,28 +48,28 @@
             android:textStyle="bold"
             android:fontFamily="@font/font2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
+            app:layout_constraintBottom_toTopOf="@id/btn_next"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             />
         <ImageView
-            android:id="@+id/iv_tick"
+            android:id="@+id/iv_tick_email"
             android:layout_width="50dp"
             android:layout_height="26dp"
             android:layout_marginTop="4dp"
             android:src="@drawable/tick"
             app:layout_constraintTop_toBottomOf="@+id/iv_logo"
-            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
+            app:layout_constraintBottom_toTopOf="@id/btn_next"
             app:layout_constraintStart_toStartOf="parent"
             />
 
         <ImageView
-            android:id="@+id/iv_tick1"
+            android:id="@+id/iv_tick_repeat"
             android:layout_width="50dp"
             android:layout_height="26dp"
             android:layout_marginTop="4dp"
             android:src="@drawable/tick"
-            app:layout_constraintTop_toBottomOf="@+id/iv_tick"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tick_email"
             app:layout_constraintStart_toStartOf="parent"
             />
         <ImageView
@@ -78,7 +78,7 @@
             android:layout_height="26dp"
             android:layout_marginTop="4dp"
             android:src="@drawable/tick"
-            app:layout_constraintTop_toBottomOf="@+id/iv_tick1"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tick_repeat"
             app:layout_constraintStart_toStartOf="parent"
             />
         <TextView
@@ -93,7 +93,7 @@
             android:fontFamily="@font/font1"
             app:layout_constraintStart_toEndOf="@id/gl_start"
             app:layout_constraintTop_toBottomOf="@id/iv_logo"
-            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
+            app:layout_constraintBottom_toTopOf="@id/btn_next"
 
             />
         <TextView
@@ -123,7 +123,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_create_account"
+        android:id="@+id/btn_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/gradient_button_background"

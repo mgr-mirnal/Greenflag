@@ -2437,6 +2437,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2511,7 +2512,9 @@ drawable test_level_drawable
 drawable tick
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-font museosan_300
+drawable white_background
+font font1
+font font2
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2610,7 +2613,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_create_account
+id btn_create
+id btn_next
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2708,6 +2712,8 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id gl_end
+id gl_start
 id gone
 id graph
 id graph_wrap
@@ -2721,6 +2727,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id ibtn_back
 id icon
 id icon_group
 id ifRoom
@@ -2739,7 +2746,9 @@ id item3
 id item4
 id item_touch_helper_previous_elevation
 id iv_logo
-id iv_tick
+id iv_tick2
+id iv_tick_email
+id iv_tick_repeat
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2750,6 +2759,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id masked
@@ -2953,6 +2963,9 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tiet_create_password
+id tiet_email
+id tiet_repeat_password
 id time
 id title
 id titleDividerNoCustom
@@ -2969,8 +2982,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_alerts
+id tv_create_an_account
+id tv_create_password
+id tv_email
 id tv_info
 id tv_info2
+id tv_info3
+id tv_info4
+id tv_password_info
+id tv_repeat_password
 id unchecked
 id uniform
 id unlabeled
@@ -2984,6 +3005,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id vw_view_line
 id west
 id withText
 id withinBounds
@@ -3078,6 +3100,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login_page
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3141,6 +3164,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout navigation_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3209,6 +3233,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string create_an_account
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
