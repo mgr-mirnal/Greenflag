@@ -7,7 +7,6 @@
     android:background="@color/black"
     android:orientation="vertical"
     android:padding="40dp"
-
     tools:context=".MainActivity">
 
     <ImageView
@@ -23,57 +22,108 @@
         app:layout_constraintVertical_bias="0.51"
         tools:ignore="ContentDescription" />
 
-    <TextView
-        android:id="@+id/tv_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="@string/tv_info"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/btn_create_account"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_logo" />
-
-    <ImageView
-        android:id="@+id/iv_tick"
-        android:layout_width="50dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/tick"
-
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_info" />
 
 
-    <TextView
-        android:id="@+id/tv_info2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="@string/tv_info2"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/tv_info"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/museosan_300"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <ImageView
+            android:id="@+id/iv_tick"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/tick"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo"
+            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
+            app:layout_constraintStart_toStartOf="parent"
+            />
 
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@id/iv_tick"
-        app:layout_constraintTop_toBottomOf="@id/tv_info" />
+        <ImageView
+            android:id="@+id/iv_tick1"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/tick"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tick"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <ImageView
+            android:id="@+id/iv_tick2"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/tick"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tick1"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:id="@+id/tv_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/tv_info2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/museosan_300"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toEndOf="@id/iv_tick"
+            app:layout_constraintTop_toBottomOf="@id/iv_logo"
+            app:layout_constraintBottom_toTopOf="@id/btn_create_account"
 
-    <ImageButton
+            />
+        <TextView
+            android:id="@+id/tv_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Request rescue online"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toEndOf="@id/iv_tick"
+            app:layout_constraintTop_toBottomOf="@id/tv_info2"
+            />
+        <TextView
+            android:id="@+id/tv_info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Policy information"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toEndOf="@id/iv_tick"
+            app:layout_constraintTop_toBottomOf="@id/tv_info3"
+            />
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btn_create_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/gradient_button_background"
         android:text="@string/btn_create"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
