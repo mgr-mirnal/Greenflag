@@ -9,17 +9,30 @@
     android:padding="40dp"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="308dp"
-        android:layout_height="75dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="@drawable/logo_green_flag"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_end"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51"
         tools:ignore="ContentDescription" />
 
 
@@ -78,8 +91,7 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:fontFamily="@font/font1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/iv_tick"
+            app:layout_constraintStart_toEndOf="@id/gl_start"
             app:layout_constraintTop_toBottomOf="@id/iv_logo"
             app:layout_constraintBottom_toTopOf="@id/btn_create_account"
 
@@ -93,9 +105,7 @@
             android:text="@string/tv_info3"
             android:textColor="@color/white"
             android:textSize="20sp"
-            app:layout_constraintHorizontal_bias="0.34"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/iv_tick1"
+            app:layout_constraintStart_toEndOf="@id/gl_start"
             app:layout_constraintTop_toBottomOf="@id/tv_info2"
             />
         <TextView
@@ -107,21 +117,21 @@
             android:text="@string/tv_info4"
             android:textColor="@color/white"
             android:textSize="20sp"
-            app:layout_constraintHorizontal_bias="0.2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/iv_tick2"
+            app:layout_constraintStart_toEndOf="@id/gl_start"
             app:layout_constraintTop_toBottomOf="@id/tv_info3"
             />
 
 
-    <androidx.appcompat.widget.AppCompatImageButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_create_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/gradient_button_background"
         android:contextClickable="true"
         android:textAlignment="center"
+        android:fontFamily="@font/font2"
         android:contentDescription="@string/create_an_account"
+        android:textAllCaps="false"
         android:text="@string/btn_create"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
